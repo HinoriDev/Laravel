@@ -9,6 +9,6 @@ class MainController extends Controller
 {
     public function showView(): View
     {
-        return view('home');
+        return view('admin.newPage3');
     }
 }
