@@ -9,6 +9,6 @@ class MainController extends Controller
 {
     public function showView(): View
     {
-        return view('home', ['value' => 500]);
+        return view('home', ['value' => 100]);
     }
 }
