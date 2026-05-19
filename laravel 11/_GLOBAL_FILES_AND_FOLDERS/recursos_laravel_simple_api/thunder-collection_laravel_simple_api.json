@@ -1,0 +1,110 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "laravel_simple_api",
+    "collectionId": "7f95f337-0e4b-4d20-a01e-9ad2d35f777c",
+    "dateExported": "2024-08-27T15:46:16.491Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "34c31674-ec87-4f98-beab-0fb9b1504bd6",
+            "colId": "7f95f337-0e4b-4d20-a01e-9ad2d35f777c",
+            "containerId": "",
+            "name": "[01] Status",
+            "url": "http://localhost/laravel_simple_api/public/api/status",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-27T14:43:02.928Z",
+            "modified": "2024-08-27T15:45:43.303Z",
+            "headers": []
+        },
+        {
+            "_id": "30bb3599-1619-4fee-ab71-31997cbfa6c6",
+            "colId": "7f95f337-0e4b-4d20-a01e-9ad2d35f777c",
+            "containerId": "",
+            "name": "[02] Clients",
+            "url": "http://localhost/laravel_simple_api/public/api/clients",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-27T14:50:10.306Z",
+            "modified": "2024-08-27T15:05:52.472Z",
+            "headers": []
+        },
+        {
+            "_id": "c612dcde-ecc0-4bc6-8b0b-7d2a794c6a93",
+            "colId": "7f95f337-0e4b-4d20-a01e-9ad2d35f777c",
+            "containerId": "",
+            "name": "[03] Client by ID (GET)",
+            "url": "http://localhost/laravel_simple_api/public/api/client-by-id/15",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-08-27T15:10:32.161Z",
+            "modified": "2024-08-27T15:11:51.454Z",
+            "headers": []
+        },
+        {
+            "_id": "a69da757-4e6a-4f4a-ab06-86314c27589a",
+            "colId": "7f95f337-0e4b-4d20-a01e-9ad2d35f777c",
+            "containerId": "",
+            "name": "[04] Client by ID (POST)",
+            "url": "http://localhost/laravel_simple_api/public/api/client",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-08-27T15:15:28.932Z",
+            "modified": "2024-08-27T15:24:53.692Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 101\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "88980174-f70c-4bb7-8fcf-a3022e242811",
+            "colId": "7f95f337-0e4b-4d20-a01e-9ad2d35f777c",
+            "containerId": "",
+            "name": "[05] Add new client",
+            "url": "http://localhost/laravel_simple_api/public/api/add-client",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-08-27T15:23:24.129Z",
+            "modified": "2024-08-27T15:24:28.106Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"joao\",\n  \"email\": \"joao@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3dbe0aa0-0fe6-4663-8b80-2551f94e7eef",
+            "colId": "7f95f337-0e4b-4d20-a01e-9ad2d35f777c",
+            "containerId": "",
+            "name": "[06] Update client",
+            "url": "http://localhost/laravel_simple_api/public/api/update-client",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-08-27T15:29:50.090Z",
+            "modified": "2024-08-27T15:31:02.136Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"name\": \"joao\",\n  \"email\": \"joao100@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2a3f7295-2d44-496e-84fb-3dcdd7941438",
+            "colId": "7f95f337-0e4b-4d20-a01e-9ad2d35f777c",
+            "containerId": "",
+            "name": "[07] Delete client",
+            "url": "http://localhost/laravel_simple_api/public/api/delete-client/1",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-08-27T15:38:43.044Z",
+            "modified": "2024-08-27T15:40:10.466Z",
+            "headers": []
+        }
+    ],
+    "ref": "MmiKZIVcG8KuHw77jYnVeSDuOTxwig5CtdrqSkzaaD-51CGqLGpAO9zvDmmOGJIBNNY3dWnmndJALhlEqFxPag"
+}

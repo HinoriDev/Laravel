@@ -1,0 +1,14 @@
+{
+    "clientName": "Thunder Client",
+    "environmentName": "laravel_api_with_sanctum_environment",
+    "environmentId": "8f455952-ba07-473d-a9d3-1ccbc8ea5525",
+    "dateExported": "2024-08-29T15:04:05.650Z",
+    "version": "1.2",
+    "variables": [
+        {
+            "name": "token",
+            "value": "[token aqui]"
+        }
+    ],
+    "ref": "M9uBMmo0-XafIfkE4my6wscLS5qV1PzE3Of5JQsUTsX7oJ6hz3g96JL80iV01pIs"
+}

@@ -1,0 +1,38 @@
+---------------------------------------------------------------------------------------------------------
+INSTALAR O WSL2
+---------------------------------------------------------------------------------------------------------
+
+Windows Start > Painel de Controlo > Programas > Programas e Funcionalidades > Ativar ou desativar funcionalidades do Windows
+
+Ativar as seguintes funcionalidades:
+
+	Microsoft Windows Subsystem Linux (Subsistema Windows para Linux)
+	Virtual Machine Platform (Plataforma de Máquina Virtual)
+
+Reiniciar a máquina
+
+Abrir powershell como administrador e executar cada um dos comandos:
+
+	wsl --install
+
+	wsl --set-default-version 2
+
+Abrir a store do Windows para escolher uma distribuição de Linux
+
+Procurar por Ubuntu 22.04.3 LTS
+
+Clicar em "Adquirir"
+
+Iniciar o Ubuntu a partir do botão Iniciar do windows
+
+Definir User e Pass no Linux
+
+---------------------------------------------------------------------------------------------------------
+INSTALAR O DOCKER DESKTOP DO WINDOWS
+---------------------------------------------------------------------------------------------------------
+
+Download em https://docs.docker.com/desktop/install/windows-install/
+
+Executar o arquivo de instalação
+
+Manter as duas opções: Use WSL 2 ... e Add shortcut do desktop

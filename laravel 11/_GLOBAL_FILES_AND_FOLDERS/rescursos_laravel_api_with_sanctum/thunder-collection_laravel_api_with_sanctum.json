@@ -1,0 +1,195 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "laravel_api_with_sanctum",
+    "collectionId": "396e55b9-c420-42ee-8507-0f39e2301dcc",
+    "dateExported": "2024-08-29T15:04:21.714Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e3b8143e-b01b-4ab3-99be-23c9bc43d133",
+            "colId": "396e55b9-c420-42ee-8507-0f39e2301dcc",
+            "containerId": "",
+            "name": "(00) Login",
+            "url": "http://laravel_api_with_sanctum.test/api/login",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2024-08-28T13:53:57.716Z",
+            "modified": "2024-08-29T15:01:14.113Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"app_consumer_001@api.com\",\n  \"password\": \"Aa123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9bfecc9c-5b65-4ba2-afd2-060c5d7994b5",
+            "colId": "396e55b9-c420-42ee-8507-0f39e2301dcc",
+            "containerId": "",
+            "name": "(01) Status",
+            "url": "http://laravel_api_with_sanctum.test/api/status",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-28T11:18:17.958Z",
+            "modified": "2024-08-28T14:56:00.889Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "ae583538-8285-4f53-8e02-006c99003529",
+            "colId": "396e55b9-c420-42ee-8507-0f39e2301dcc",
+            "containerId": "",
+            "name": "(00) Logout",
+            "url": "http://laravel_api_with_sanctum.test/api/logout",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-08-28T14:45:15.339Z",
+            "modified": "2024-08-28T14:55:20.047Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"app_consumer_002@api.com\",\n  \"password\": \"Aa123456\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "985c828d-1718-4010-8d5f-0a5145cde818",
+            "colId": "396e55b9-c420-42ee-8507-0f39e2301dcc",
+            "containerId": "",
+            "name": "(02) All clients",
+            "url": "http://laravel_api_with_sanctum.test/api/clients",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-28T11:52:31.084Z",
+            "modified": "2024-08-28T14:56:11.367Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "3171771f-3061-415d-a551-740469de67c0",
+            "colId": "396e55b9-c420-42ee-8507-0f39e2301dcc",
+            "containerId": "",
+            "name": "(03) Create client",
+            "url": "http://laravel_api_with_sanctum.test/api/clients",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-28T12:00:51.605Z",
+            "modified": "2024-08-28T14:56:18.426Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Joao1\",\n  \"email\": \"joao1@gmail.com\",\n  \"phone\": \"123456789\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "5de1a1aa-491b-4f45-8cad-6e31a4374bcf",
+            "colId": "396e55b9-c420-42ee-8507-0f39e2301dcc",
+            "containerId": "",
+            "name": "(04) Show client",
+            "url": "http://laravel_api_with_sanctum.test/api/clients/100",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-08-28T13:24:44.653Z",
+            "modified": "2024-08-28T14:56:23.717Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "bbb0eb48-ed20-4634-ae33-e1f978247170",
+            "colId": "396e55b9-c420-42ee-8507-0f39e2301dcc",
+            "containerId": "",
+            "name": "(05) Update client",
+            "url": "http://laravel_api_with_sanctum.test/api/clients/10",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-08-28T13:32:33.294Z",
+            "modified": "2024-08-28T14:56:30.591Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Joao10\",\n  \"email\": \"joao10@gmail.com\",\n  \"phone\": \"123456789\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        },
+        {
+            "_id": "a84a5493-e942-4ee3-a6a6-d28f2dea1a9e",
+            "colId": "396e55b9-c420-42ee-8507-0f39e2301dcc",
+            "containerId": "",
+            "name": "(06) Delete client",
+            "url": "http://laravel_api_with_sanctum.test/api/clients/10",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-08-28T13:38:08.393Z",
+            "modified": "2024-08-28T14:56:36.327Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            }
+        }
+    ],
+    "ref": "ddJv25T2Q3UBkaCeVMJCLG_oYzM6gRcthJk9UdQQFXE_4a3CXWt7Eut7tSzX-kl_KMvY8auQj7LHI1MlsDpClQ"
+}
